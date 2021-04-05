@@ -1,0 +1,255 @@
+/* My telegram is " @shakat28 "
+My Instagram page is " @atropat.dev "
+My Number is " +98 918 236 4035 "
+My github page is " https://github.com/atorpat-dev "
+My codepen page is " https://codepen.io/atropat-dev "
+mail to atropat.dev@gmail.com */
+
+
+
+/* ---     This code just for design background and webpage ( fu***ck it😂😂 )    --- */
+/* ---     This code just for design background and webpage ( fu***ck it😂😂 )    --- */
+/* ---     This code just for design background and webpage ( fu***ck it😂😂 )    --- */
+/* ---     This code just for design background and webpage ( fu***ck it😂😂 )    --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Source+Sans+Pro:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Average Sans', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bg-blur-color {
+    position: absolute;
+    top: 10px;
+    z-index: -2;
+    width: 100%;
+    height: 900px;
+    filter: blur(200px);
+    background: linear-gradient(90deg, rgb(50 64 219) 0%, rgb(23 135 215) 56%, rgb(81 49 206) 100%);
+}
+
+.items-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+    text-align: center;
+    border: solid 8px rgba(103, 83, 214, 0.13);
+    border-radius: 15px;
+    padding: 70px;
+    height: 800px;
+    width: 95%;
+    background: rgba(247, 252, 255, 0.486);
+}
+
+.circle-contaner {
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.circle1, .circle2, .circle3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background: rgb(255, 0, 119);
+}
+
+.circle2 {
+    background: rgb(255, 187, 0);
+}
+
+.circle3 {
+    background: rgb(8, 216, 147);
+}
+
+.camera{
+    position: absolute;
+    z-index: 20;
+    top: 40px;
+    background: rgba(255, 255, 255, 0.192);
+    border: solid 8px rgba(93, 70, 224, 0.075);
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    width: 160px;
+    height: 50px;
+}
+
+.camera-line{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    background: rgba(80, 69, 180, 0.267);
+    border-radius: 50px;
+    width: 62%;
+    height: 6px;
+}
+.camera-circle{
+    position: absolute;
+    top: 7.5px;
+    right: 15px;
+    z-index: 5;
+    background: radial-gradient(circle, rgba(63, 50, 182, 0.829) 0%, rgb(255, 255, 255) 100%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.profile-image{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* ---     End Design Code    --- */
+/* ---     End Design Code    --- */
+/* ---     End Design Code    --- */
+/* ---     End Design Code    --- */
+
+
+/* ---     This is box and boxhover code ( F**CK IT TOO 😂😂😂😂 )    --- */
+/* ---     This is box and boxhover code ( F**CK IT TOO 😂😂😂😂 )    --- */
+/* ---     This is box and boxhover code ( F**CK IT TOO 😂😂😂😂 )    --- */
+/* ---     This is box and boxhover code ( F**CK IT TOO 😂😂😂😂 )    --- */
+
+
+.contaner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    border-radius: 1em;
+    margin-top: 430px;
+    height: 135px;
+    background: rgb(246, 249, 255);
+    box-shadow: 0 25px 50px rgba(25, 26, 99, 0.137);
+}
+
+/* ---     This is kid image BG    --- */
+.background {
+    position: absolute;
+    z-index: -1;
+    width: 700px;
+}
+/* ---     This is kid image BG    --- */
+
+.logo-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-height: 100px;
+    transition: all .4s;
+}
+
+.contaner:hover .logo-parent {
+    filter: blur(12px);
+    transform: scale(.92, .92);
+    transition: all .4s, transform .4s;
+    -moz-transition: all .4s, transform .4s;
+    -o-transition: all .4s, transform .4s;
+    -webkit-transition: all .4s, transform .4s;
+}
+
+.logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7 {
+    width: 100px;
+}
+
+.button {
+    visibility: hidden;
+    line-height: 45px;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    height: 45px;
+    cursor: pointer;
+    padding: 0 50px;
+    border-radius: 70px;
+    opacity: 0%;
+    transform: translateY(30px);
+    transition: all .1s;
+    -moz-transition:all .1s;
+    -o-transition: all .1s;
+    -webkit-transition: all .1s;
+}
+
+.contaner:hover .button {
+    visibility: visible;
+    color: rgb(255, 255, 255);
+    background: rgb(21, 103, 196);
+    box-shadow: rgba(50, 122, 205, 0.452) 0 3px 20px;
+    opacity: 100%;
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+.contaner:hover a:hover {
+    box-shadow: rgba(35, 89, 151, 0.425) 0 5px 20px;
+    background: rgb(22, 129, 230);
+    transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -webkit-transition: all .2s;
+}
+
+/* ---     I'm responsive code 🤟 I'm sexy and I'm gay too 🏳️‍🌈🖕 😂😂😂😂    --- */
+/* ---     I'm responsive code 🤟 I'm sexy and I'm gay too 🏳️‍🌈🖕 😂😂😂😂    --- */
+/* ---     I'm responsive code 🤟 I'm sexy and I'm gay too 🏳️‍🌈🖕 😂😂😂😂    --- */
+
+@media only screen and (max-width: 940px) {
+
+    .contaner{
+        flex-direction: column;
+        display: flex;
+        width: 400px;
+        border-radius: 1em;
+        margin-top: 430px;
+        height: 900px;
+    }
+    .logo-parent{
+        flex-direction: column;
+    }
+    .logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7 {
+        width: 100px;
+        padding-top: 50px;
+    }
+    .items-box{
+        height: 1100px;
+        margin-bottom: 50px ;
+    }
+  }
+@media only screen and (max-width: 700px){
+
+    .background{
+        display: none;
+    }
+    .contaner{
+        width: 100%;
+        margin-top: 80px;
+    }
+
+}
